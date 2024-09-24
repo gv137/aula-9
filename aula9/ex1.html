@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>exercício</title>
+</head>
+
+<body>
+    <h1><center>exercício</center></h1>
+
+    <center><form action="ex1.php" method="post">
+        <div class="form-group col-2" >
+          <label for="exampleInputNumero1">Digite a quantidade de cópias</label>
+          <input type="number" name="n1" class="form-control" id="exampleInputNumero1" placeholder="primeiro número">
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="opcao" id="exampleRadios1" value="simples"  checked>
+            <label class="form-check-label" for="exampleRadios1">
+              cópias simples - R$1,20
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="opcao" id="exampleRadios1" value="cor">
+            <label class="form-check-label" for="exampleRadios1">
+                cópias coloridas - R$2,50
+            </label>
+        </div>
+
+        <div class="col-4">
+            <button type="submit" name="numeros" class="btn btn-primary">Calcular</button>
+        </div>
+    </center>
+
+
+</body>
+
+</html>
